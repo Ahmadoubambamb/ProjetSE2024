@@ -13,8 +13,15 @@ TEMPLATE = app
 
 
 SOURCES += main.cpp\
-        mainwindow.cpp
+        mainwindow.cpp \
+    processus.cpp \
+    fifo.cpp \
+    file_attente.cpp
 
-HEADERS  += mainwindow.h
+HEADERS  += mainwindow.h \
+    tourniquet.h \
+    processus.h \
+    fifo.h \
+    file_attente.h
 
 FORMS    += mainwindow.ui

@@ -1,6 +1,7 @@
 #ifndef PROCESSUS_H
 #define PROCESSUS_H
-
+#include <iostream>
+using namespace std;
 class processus {
 private :
   unsigned int id;

@@ -27,7 +27,7 @@ processus * file_attente::defiler(){
     if(!est_vide()){
         noeud *tmp = tete;
         tete = tete->suivant;
-        renvoi = tmp;
+        renvoi = tmp->prc;
         taille--;
          return renvoi;
     }

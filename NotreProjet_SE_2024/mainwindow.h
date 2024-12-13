@@ -2,7 +2,9 @@
 #define MAINWINDOW_H
 
 #include <QMainWindow>
-
+#include <QMenuBar>
+#include <qaction.h>
+#include <QMessageBox>
 namespace Ui {
 class MainWindow;
 }

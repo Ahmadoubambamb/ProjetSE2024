@@ -2,6 +2,7 @@
 #define FILE_ATTENTE_H
 #include "processus.h"
 #include <iostream>
+
 struct noeud{
     processus *prc;
     struct noeud *suivant;
